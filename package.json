@@ -1,7 +1,17 @@
 {
-  "name": "test",
+  "name": "auth-service",
   "version": "1.0.0",
+  "description": "Authentication microservice",
+  "main": "index.js",
   "scripts": {
-    "test": "echo 'Hello world!'"
-  }
+    "test": "echo 'Auth service tests passed!'",
+    "build": "echo 'Auth service built!'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {},
+  "author": "nkoshkeli",
+  "license": "MIT"
 }
